@@ -1,0 +1,10 @@
+<h1>Gas Calculator</h1>
+
+<% cost = params["amount"].to_f / params["gallons"].to_f %>
+
+
+<%= "Thanks for using the Cost Per Gallon Calculator. You paid $#{sprintf("%.2f", (cost))} per gallon." %>
+
+
+
+<p><a href="/calc" title="To calculator">Click here to go back to the calculator.</a></p>
